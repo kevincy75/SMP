@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "combat"
+	group: "4098B870CCCBD1D4"
+	id: "36283CDD6DA1EE85"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Combat"
+}
