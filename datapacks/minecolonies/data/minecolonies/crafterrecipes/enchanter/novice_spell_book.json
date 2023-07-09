@@ -1,0 +1,28 @@
+{
+    "type": "recipe",
+    "crafter": "enchanter_custom",
+    "inputs": [
+      {
+        "item": "minecraft:book"
+      },
+      {
+        "item": "minecraft:heart_of_the_sea"
+      },
+      {
+        "count": 2,
+        "item": "minecraft:ender_pearl"
+      },
+      {
+        "count": 2,
+        "item": "minecraft:prismarine_shard"
+      },
+      {
+        "count": 2,
+        "item": "minecraft:rabbit_foot"
+      }
+    ],
+    "intermediate": "minecraft:anvil",
+    "result": "ars_nouveau:novice_spell_book",
+    "min-building-level": "2",
+    "show-tooltip": true
+  }

@@ -1,0 +1,22 @@
+{
+    "type": "recipe",
+    "crafter": "enchanter_custom",
+    "inputs": [
+      {
+        "count": 3,
+        "item": "minecraft:obsidian"
+      },
+      {
+        "item": "minecraft:nether_star"
+      },
+      {
+        "count": 5,
+        "item": "minecraft:glass"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "tool": "minecraft:conduit",
+    "result": "minecraft:beacon",
+    "min-building-level": "3",
+    "show-tooltip": true
+  }

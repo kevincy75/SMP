@@ -1,0 +1,21 @@
+{
+    "type": "recipe",
+    "crafter": "cook_custom",
+    "inputs": [
+      {
+        "item": "minecraft_apple"
+      },
+      {
+        "count": 2,
+        "item": "minecraft:emerald"
+      },
+      {
+        "count": 2,
+        "item": "minecraft:diamond"
+      }
+    ],
+    "intermediate": "farmersdelight:stove",
+    "result": "bhc:relic_apple",
+    "min-building-level": "3",
+    "show-tooltip": true
+  }

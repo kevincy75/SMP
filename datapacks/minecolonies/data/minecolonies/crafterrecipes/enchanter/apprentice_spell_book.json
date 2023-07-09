@@ -1,0 +1,29 @@
+{
+    "type": "recipe",
+    "crafter": "enchanter_custom",
+    "inputs": [
+      {
+        "item": "ars_nouveau:novice_spell_book"
+      },
+      {
+        "item": "minecraft:nether_star"
+      },
+      {
+        "count": 2,
+        "item": "minecraft:magma_cream"
+      },
+      {
+        "count": 2,
+        "item": "minecraft:wither_skeleton_skull"
+      },
+      {
+        "count": 2,
+        "item": "minecraft:end_crystal"
+      }
+    ],
+    "intermediate": "minecraft:beacon",
+    "tool": "minecraft:conduit",
+    "result": "ars_nouveau:apprentice_spell_book",
+    "min-building-level": "4",
+    "show-tooltip": true
+  }

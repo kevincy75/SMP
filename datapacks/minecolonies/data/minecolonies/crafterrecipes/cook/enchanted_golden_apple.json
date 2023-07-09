@@ -1,0 +1,17 @@
+{
+    "type": "recipe",
+    "crafter": "cook_custom",
+    "inputs": [
+      {
+        "item": "bhc:relic_apple"
+      },
+      {
+        "count": 8,
+        "item": "minecraft:gold_block"
+      }
+    ],
+    "intermediate": "farmersdelight:stove",
+    "result": "minecraft:enchanted_golden_apple",
+    "min-building-level": "4",
+    "show-tooltip": true
+  }

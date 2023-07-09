@@ -1,0 +1,29 @@
+{
+    "type": "recipe",
+    "crafter": "enchanter_custom",
+    "inputs": [
+      {
+        "item": "ars_nouveau:apprentice_spell_book"
+      },
+      {
+        "item": "ars_nouveau:wilden_tribute"
+      },
+      {
+        "count": 2,
+        "item": "minecraft:totem_of_undying"
+      },
+      {
+        "count": 2,
+        "item": "minecraft:nether_star"
+      },
+      {
+        "count": 2,
+        "item": "minecraft:shulker_box"
+      }
+    ],
+    "intermediate": "minecraft:beacon",
+    "tool": "minecraft:conduit",
+    "result": "ars_nouveau:archmage_spell_book",
+    "min-building-level": "5",
+    "show-tooltip": true
+  }

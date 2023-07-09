@@ -1,0 +1,16 @@
+{
+    "type": "recipe",
+    "crafter": "mechanic_custom",
+    "inputs": [
+      {
+        "count": 8,
+        "item": "minecraft:nautilus_shell"
+      },
+      {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "result": "minecraft:conduit",
+    "show-tooltip": true
+  }
