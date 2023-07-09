@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "civilian"
+	group: "4098B870CCCBD1D4"
+	id: "5A6510E305EA7134"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6FBF42234E8A8239"
+			tasks: [{
+				id: "16666695C171CC91"
+				type: "checkmark"
+			}]
+			title: "Research: Civilian"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "203E39F0B7A7BEAF"
+			tasks: [{
+				id: "0849CA9703CEC4B5"
+				type: "checkmark"
+			}]
+			title: "Tier 1 Civilian"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "3F5044FC8B97A28D"
+			tasks: [{
+				id: "2CFC2370EC713CF3"
+				type: "checkmark"
+			}]
+			title: "Tier 2 Civilian"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "3A4BCE6C8CC77175"
+			tasks: [{
+				id: "543AD2E50076BCD3"
+				type: "checkmark"
+			}]
+			title: "Tier 3 Civilian"
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "Civilian"
+}
