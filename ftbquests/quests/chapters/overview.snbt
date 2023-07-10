@@ -1,0 +1,171 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overview"
+	group: "64DD1155EDF94656"
+	id: "68DF29639FF44B70"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0C9221B15D23F12F"
+			tasks: [{
+				id: "744BE6DF195E4B53"
+				type: "checkmark"
+			}]
+			title: "Starting out"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Once you have settled down and founded your colony, you have entered the early game. "
+				""
+				"To progress into the next stage, you will need to reach the Nether and upgrade your Town Hall to Lv3, then you will start getting access to many new and powerful tools and magic."
+			]
+			id: "31EF37D038163094"
+			tasks: [{
+				id: "6918D8B46258BC73"
+				type: "checkmark"
+			}]
+			title: "The Early Game"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You have now reached the Mid-game, you will start getting access to powerful tools and magic, as well as setting a foot in developed advanced technology."
+				""
+				"Your next goal is to find End Cities, and Woodland Mansions. After that you will get access to the best tools in the End-game stage."
+			]
+			id: "46AB6AEDB8262184"
+			tasks: [{
+				id: "5F68DACD97D5786C"
+				type: "checkmark"
+			}]
+			title: "The Mid-game"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Welcome to the End-game. You now get access to powerful items and technology. "
+				""
+				"With them, you can start building anything you want, mob farms, item automations, etc."
+			]
+			id: "39EF5C463AC23777"
+			subtitle: "We're in the endgame now"
+			tasks: [{
+				id: "0BE44844CDA34163"
+				type: "checkmark"
+			}]
+			title: "The End-game"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31EF37D038163094"]
+			id: "23F7625EEFCE162E"
+			tasks: [{
+				id: "70D41DC453FEE154"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["46AB6AEDB8262184"]
+			id: "6CE7F9AA028D488E"
+			tasks: [{
+				id: "65932E4C8FFABBB7"
+				item: {
+					Count: 1b
+					id: "pedestals:block_pedestal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31EF37D038163094"]
+			id: "46B4234EE3462B92"
+			tasks: [{
+				id: "2B88B90E9FF79123"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["46AB6AEDB8262184"]
+			id: "508B7F05E330F714"
+			tasks: [{
+				id: "272797A080058764"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["46AB6AEDB8262184"]
+			id: "7EA2663BF20433C6"
+			tasks: [{
+				id: "4AFE3B88780A5E61"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["46AB6AEDB8262184"]
+			id: "37C6320C9F60CF5E"
+			tasks: [{
+				id: "58A56A0D43505512"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["39EF5C463AC23777"]
+			id: "05E3E15CDEE253C1"
+			tasks: [{
+				id: "76F48BFC3899E5E5"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["39EF5C463AC23777"]
+			id: "7BEF92D00462C7D5"
+			tasks: [{
+				id: "5A128585ADFBC02A"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["39EF5C463AC23777"]
+			id: "180FA5A86358B143"
+			tasks: [{
+				id: "02E41C8BE96F6B09"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+	]
+	title: "Overview"
+}

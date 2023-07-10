@@ -1,0 +1,182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: "4098B870CCCBD1D4"
+	id: "054CF433E76CCC08"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecolonies:supplycampdeployer"
+			id: "42419A4B00B8067A"
+			rewards: [{
+				id: "287AB8B2CD35A382"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3A45942BE56BE92A"
+					item: "minecolonies:supplycampdeployer"
+					type: "item"
+				}
+				{
+					id: "3F8B876E6B616ACE"
+					item: "minecolonies:supplychestdeployer"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42419A4B00B8067A"]
+			id: "65A3F649384DAA62"
+			rewards: [{
+				id: "75EDB50F23147FCD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E256AB74E38ADEC"
+				item: "minecolonies:blockhuttownhall"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["65A3F649384DAA62"]
+			icon: "minecolonies:blockhutbuilder"
+			id: "144FB0207FC2EA78"
+			rewards: [{
+				id: "3656410496D69530"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1F18C798CEA93442"
+					item: "minecolonies:blockhutbuilder"
+					type: "item"
+				}
+				{
+					id: "1548F85FABCD2EE4"
+					item: "structurize:sceptergold"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"To fulfil the item requests of your settlers, you can give them items on your own, but you can also use the Courier."
+				""
+				"You will need courier(s) and warehouse(s). Once you have them built, you can simply place items in bulk in the warehouse, and the courier to deliver to fulfil different requests of the settlers."
+				""
+				"The warehouse is also used by the settlers, when items are produced within the colony, the courier will deliver items to the warehouse for storage."
+			]
+			icon: "minecolonies:blockhutdeliveryman"
+			id: "28911464348EC9FA"
+			rewards: [{
+				id: "4DFBE75D32585BB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0D44E7F0D6B8EC5D"
+					item: "minecolonies:blockhutdeliveryman"
+					type: "item"
+				}
+				{
+					id: "7DA76C2E15C6C031"
+					item: "minecolonies:blockhutwarehouse"
+					type: "item"
+				}
+			]
+			title: "Courier and Warehouse"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"Residence are houses for the settlers to settle down and rest in your colony. You will need to build and upgrade the houses as you expand your colony and welcome more settlers in your colony. "
+				""
+				"Settlers might have babies, and you also need to provide a housing slot for them."
+			]
+			id: "2A84BD17B53399A1"
+			rewards: [{
+				id: "4473FF9DC063E907"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60287ECD9AF09C53"
+				item: "minecolonies:blockhutcitizen"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"The settlers in your colony will need to eat to survive, and the Restaurant is a building serving the function to feed the settlers."
+				""
+				"You will need a food source for the cook to feed your settlers, either from you, or from within the colony."
+			]
+			icon: "minecolonies:blockhutcook"
+			id: "21BA10C4737C4BCA"
+			rewards: [{
+				id: "6BF5F74A0B6FFCE8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6112954B4DB64337"
+					item: "minecolonies:blockhutcook"
+					type: "item"
+				}
+				{
+					id: "38FF99F71E13BBEC"
+					item: "minecolonies:blockhutfisherman"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17047D55EBA759B0"
+					item: "minecolonies:blockhutfarmer"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"The Tavern is a building used to welcome new settlers to your colony, also useful as a form of residence when you first founded your colony. "
+				""
+				"However you will need a better form of residence for settlers to settle down in your colony."
+			]
+			id: "4571F61001DDFABB"
+			rewards: [{
+				id: "764456EAD39F26EA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "38166C16BEF47CFF"
+				item: "minecolonies:blockhuttavern"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+	]
+	title: "Introduction"
+}

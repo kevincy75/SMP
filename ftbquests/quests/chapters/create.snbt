@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "64DD1155EDF94656"
+	id: "7C0B0687D90BE857"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "6E4D154004674FA8"
+		rewards: [{
+			command: "/gamestages add @p steam_engine"
+			icon: "create:steam_engine"
+			id: "169AC4A6B453201D"
+			player_command: false
+			title: "*unlocks Steam Engine"
+			type: "command"
+		}]
+		tasks: [{
+			id: "4E206C2DE4257C48"
+			item: "create:steam_engine"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -0.5d
+	}]
+	title: "Create"
+}
